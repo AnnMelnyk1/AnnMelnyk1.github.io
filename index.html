@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>ТортоДел</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+	<header class="fixed-top" class="header" id="header">
+		<div class="navbar">
+			<div class="logo">
+				<img src="./assets/logo.png" alt="site's logo" width=145px height=60px>
+			</div>
+			<nav class="nav-menu" id="nav-menu">
+				<ul class="nav-list">
+					<li class="close"><a href="#">x</a></li>
+					<li><a href="#" class="nav-link active">Головна</a></li>
+					<li><a href="#products" class="nav-link">Каталог</a>
+						<ul class="dropdown-content">
+							<li class="menu-item"><a href="#cake">Торти</a></li>
+							<li class="menu-item"><a href="#cupcake">Капкейки</a></li>
+							<li class="menu-item"><a href="#other">Інше</a></li>
+						</ul>
+					</li>
+					<li><a href="#about" class="nav-link">Про нас</a></li>
+					<li><a href="#contact" class="nav-link">Контакти</a></li>
+
+
+				</ul>
+				<div class="burger-icon">
+					<div></div>
+					<div></div>
+					<div></div>
+				</div>
+			</nav>
+			<div class="nav-toggle" id="nav-toggle">
+				<i class="fas fa-bars"></i>
+			</div>
+		</div>
+	</header>
+	<section class="banner container-fluid  justify-content-center height-100%">
+		<div class="row col-12" style="padding-top: 10vh">
+			<div class="col-lg-6 text-white d-flex flex-column justify-content-center align-items-center">
+				<div class="row">
+					<!-- <section class="home"> -->
+					<div class="container">
+						<div class="home-content">
+							<h1>Сьогодні найкращий день, щоб поласувати чимось солодким</h1>
+							<a href="#" class="btn btn-outline">
+								<i class="fab fa-telegram"></i>
+								Замовити швидко
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- </section> -->
+			<div class="col-lg-6 text-white d-flex flex-column justify-content-center align-items-center">
+				<img class="img-fluid" src="./assets/banner.png" alt="Cake banner" />
+			</div>
+		</div>
+	</section>
+
+	<section id="products" class="mt-5">
+		<div class="container" margin>
+		
+
+			<div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+						class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+						aria-label="Slide 4"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+						aria-label="Slide 5"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+						aria-label="Slide 6"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="./assets/products/tort1.png" class="d-block w-50 mx-auto" alt="Торт1" />
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/products/tort2.png" class="d-block w-50 mx-auto" alt="Торт2" />
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/products/cupcake1.png" class="d-block w-50 mx-auto" alt="Капкейк1" />
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/products/cupcake2.png" class="d-block w-50 mx-auto" alt="Капкейк2" />
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/products/cookies1.png" class="d-block w-50 mx-auto" alt="Макаронс" />
+					</div>
+					<div class="carousel-item">
+						<img src="./assets/products/cookies2.png" class="d-block w-50 mx-auto"
+							alt="Кейкпопс" />
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+		</div>
+	</section>
+
+	<section id="cake" class="mt-5">
+		<div class="container">
+			<div class="section-title">
+				<h2>Торти</h2>
+			</div>
+			<div class="col-md-6 ">
+				<div class="price-card">
+					<span class="h3">Ціна - 700 грн/кг. </span>
+					<p>*Вартість декору - прораховується за фото.</p>
+					<p>Мінімальна вага замовлення - 1,5 кг</p>
+					<p class="price-card-info"><span>Замовляти мінімум за 3 дні.</span></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cake/cake1.jpg" alt="Торт Ваніль-Лаванда" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Торт Ваніль-Лаванда</h5>
+							<p class="card-text">
+								Ніжний ванільний бісквіт, вершковий крем та кулі з лаванди, в довершенні з вашим ідеальним дизайном.</p>
+								
+
+							</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cake/cake2.jpg" alt="Торт Манго-Чорниця" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Торт Манго-Чорниця</h5>
+							<p class="card-text">
+								Маковий бісквіт, насичений чізкейк з манго разом із конфі з чорниці, чорничний компоте  та вершковий крем. </p>
+								
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cake/cake3.jpg" alt="Торт Роза-Малина" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Торт Роза-Малина</h5>
+							<p class="card-text">
+								Ванільний дакуаз, просичений рожевим лікером, легкий рожевий мус в поєднанні з лимонним кулі, а в завершенні компоте з малинию </p>
+								
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cake/cake4.jpg" alt="Торт Груша-Дор-Блю" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Торт Груша-Дор-Блю</h5>
+							<p class="card-text">
+								Легкий бісквіт, просичений медовим сиропом, чізкейк із сиром Дор-Блю, компоте із груші та ніжний йогуртовий крем. </p>
+								
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cake/cake5.jpg" alt="Торт Шоколадний" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Торт Шоколадний</h5>
+							<p class="card-text">
+								Класичний шоколадний бісквіт, просичений сиропом на коньяці, насичений крем з чорного шоколаду та крем-сиру, оздоблення за вашим побаджанням</p>
+								
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cake/cake6.jpeg" alt="Торт Персиковий" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Торт Персиковий</h5>
+							<p class="card-text">
+								Шифоновий бісквіт, ніжний персиковий мус, прослойка з горіхів, персикове компоте та швейцарська меренга.</p>
+																
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="cupcake" class="mt-5">
+		<div class="container">
+			<div class="section-title">
+				<h2>Капкейки</h2>
+			</div>
+			<div class="col-md-6 ">
+				<div class="price-card">
+					<span class="h3">Ціна - 70 грн/шт. </span>
+					<p>*Вартість декору - прораховується за фото.</p>
+					<p>Замовлення на 4/6/9/12 шт.</p>
+					<p class="price-card-info"><span>Замовляти мінімум за 2 дні.</span></p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cupcake/cupcake1.jpg" alt="Полуничний" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Полуничний</h5>
+							<p class="card-text">
+								Ванільний капкейк з полуничною начинкою та вершковим кремом.</p>
+								
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cupcake/cupcake2.jpg" alt="Малиновий" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Малиновий</h5>
+							<p class="card-text">
+								Ванільний капкейк з малиновою начинкою та масляним кремом.</p>
+								
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cupcake/cupcake3.jpg" alt="Смородиновий" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Смородиновий</h5>
+							<p class="card-text">
+								Ванільний капкейк зі смородиновою начинкою та швейцарською меренгою. </p>
+								
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cupcake/cupcake4.jpg" alt="Червоний оксамит" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Червоний оксамит</h5>
+							<p class="card-text">
+								Червоний капкейк, оздоблений кремом із крем-сиру та білого шоколаду.</p>
+								
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cupcake/cupcake5.jpeg" alt="Шоколадний" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Шоколадний</h5>
+							<p class="card-text">
+								Шоколадний капкейк із шоколадною начинкою, шапочка з вершкового крему та оздоблений за бажанням. </p>
+								
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cupcake/cupcake6.jpg" alt="Снікерс" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Снікерс</h5>
+							<p class="card-text">
+								Шоколадний капкейк, начинка горіхи-карамель, та в довершенні шапочка із шоколадного крему. </p>
+								
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="cookies" class="mt-5">
+		<div class="container">
+			<div class="section-title">
+				<h2>Кейкпопси та макаронси</h2>
+			</div>
+			<div class="col-md-6 ">
+				<div class="price-card">
+					<span class="h3">Ціна - 40 грн/шт. </span>
+					<p>*Вартість декору - прораховується за фото.</p>
+					<p class="price-card-info"><span>Замовляти мінімум за 2 дні.</span></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cookies/cookies1.jpg" alt="Ванільний кейкпопс" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Ванільний кейкпопс</h5>
+							<p class="card-text">
+								Ванільний кейкпопс у глазурі з білого шоколаду, колір глазурі за вашим бажанням.</p>
+								
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cookies/cookies2.webp" alt="Кейкпопс Червоний оксамит" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Кейкпопс Червоний оксамит</h5>
+							<p class="card-text">
+								Червоний кейкпопс у глазурі з білого шоколаду, колір глазурі за вашим бажанням.</p>
+																
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cookies/cookies3.jpg" alt="Шоколадний кейкпопс" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Шоколадний кейкпопс</h5>
+							<p class="card-text">
+								Шоколадний кейкпопс у глазурі з білого шоколаду, колір глазурі за вашим бажанням. </p>
+																
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cookies/cookies4.jpg" alt="Лавандово-чорничний макаронс" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Лавандово-чорничний макаронс</h5>
+							<p class="card-text">
+								Лавандові безе, поєднанні чорничним кремом.</p>
+																
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cookies/cookies5.jpg" alt="Фісташково-ванільний макаронс" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Фісташково-ванільний макаронс</h5>
+							<p class="card-text">
+								Фісташкові безе, поєднанні легким ванільним кремом. </p>
+																
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto mb-5 border border-warning">
+					<div class="card m-4 border border-danger">
+						<div class="img-wrapper">
+							<img src="./assets/cookies/cookies6.jpg" alt="Лимонно-шоколадний макаронс" />
+						</div>
+						<div class="card-body">
+							<h5 class="card-title">Лимонно-шоколадний макаронс</h5>
+							<p class="card-text">
+								Лимонні безе, поєднанні насиченим кремом на основі шоколаду та масла. </p>
+																
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about" id="about">
+		<div class="container">
+			<div class="section-title">
+				<h1>Про нас</h1>
+			</div>
+			<div class="about-detail">
+				<div class="about-detail-content">
+					<div class="about-img">
+						<img src="assets/about.jpg" alt="pastry-shop photo">
+						<img src="assets/director.jpg" alt="the chef-confectioner">
+
+					</div>
+					<div class="about-description">
+						<p>Вітаю! Я засновник бутік-кондитерської ТортоДел, мене звати Вікторія Антонова. Ідея створення нашої кондитерської виникла у мене ще у 2011 р., я почала робити десерти на замовлення, і вже у 2013 ми відчинили свої двері для наших гостей. 
+							Ви можете не тільки скуштувати наші десерти, а й побачити як ми їх готуємо у нашому блозі у такій соціальній мережі як Інстаграм. 
+							Адже розвиток має бути у всьому, починаючи з вдосконалення спілкування з клієнтами. Відвідувачі можуть проникнутися атмосферою нашої кондитерської невиходячи з дому.
+							Ми втілюємо побажання наших клієнтів вже 10 років. 
+							У нас ви можете вибрати десерти з будь-якого приводу та для будь-якого віку, адже всі десерти виготовляються з натуральних та якісних продуктів, а дизайн виконується за вашим побажанням. </p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contacts">
+		<div class="container">
+			<div class="section-title">
+				<h2>Контакти</h2>
+			</div>
+			<div class="row">
+				<div class="col-lg-6">
+					<h3>Адреса: бульвар Катеринославський, 1, Дніпро, Дніпропетровська область, 49000</h3>
+					<h3>Телефон: <a href=”tel:+380441234567” style="text-decoration: none;">+38 (044) 123-45-67</a></h3>
+					<h3>Email: <a href="mailto:ask@htmlbook.ru" style="text-decoration: none;">tortodel_dnipro@gmail.com</a></h3> 
+				</div>
+				<div class="col-lg-6">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10582.590619368135!2d35.0522773!3d48.4632896!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2dc0e1b3dc5%3A0xec28d0f09b223aad!2sLe%20Silpo!5e0!3m2!1sru!2spl!4v1681149894078!5m2!1sru!2spl" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <footer class="footer" id="contact">
+        <div class="footer-list">
+            <div class="footer-data">
+                <div class="logo">
+					<img src="./assets/logo.png" alt="site's logo" width=145px height=60px>
+				</div>
+                <div class="footer-data-social">
+                    <a href="https://m.facebook.com/profile.php?id=100063601446670&_rdr"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/?lang=uk"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-data">
+                <h2>Адреса</h2>
+                <p>м. Дніпро<br> бульвар Катеринославський, 1.</p>
+            </div>
+            <div class="footer-data">
+                <h2>Ми відчинені</h2>
+                <p>Понеділок - Субота<br> З 09:00 по 20:00</p>
+            </div>
+            <div class="footer-data">
+                <h2>Контакти</h2>
+                <p>066 396 79 37</p>
+                <p>098 098 32 34</p>
+            </div>
+        </div>
+        <div class="copy">
+            <p>&copy; Мельник Анастасія</p>
+        </div>
+    </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
